@@ -1,0 +1,90 @@
+:root {
+  --Navbar-background-color: rgb(49, 51, 175);
+  --Navbar-color: white;
+}
+
+.Navbar {
+  display: flex;
+  background-color: var(--Navbar-background-color);
+  color: var(--Navbar-color);
+  font-size: 1.4em;
+  min-height: 10%;
+}
+
+.main-options {
+  width: 65%;
+  text-align: center;
+  padding: 2%;
+  border-left: 2px solid rgb(184, 181, 181);
+  border-right: 2px solid rgb(184, 181, 181);
+}
+.op {
+  padding: 4rem 1rem 1.29rem 1rem;
+  color: white;
+}
+.op:hover {
+  background-color: var(--Navbar-color);
+  color: black;
+}
+.logOUT {
+  width: 17%;
+  padding-top: 1.2rem;
+}
+.logout-btn {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: whitesmoke;
+}
+.logout-btn:hover {
+  background-color: rgb(160, 162, 245);
+  color: white;
+}
+.logo {
+  width: 17%;
+}
+.logo-img {
+  padding-left: 30%;
+  padding-top: 5%;
+  font-size: 2em;
+}
+
+.active {
+  background-color: rgb(219, 215, 209);
+  color: black;
+}
+.logout-btn {
+  text-align: center;
+}
+@media screen and (max-width: 720px) {
+  .Navbar {
+    display: block;
+    background-color: var(--Navbar-background-color);
+    font-size: 1.4em;
+    height: auto;
+    width: 100%;
+  }
+  .main-options {
+    width: 95%;
+    display: block;
+    border-bottom: 2px solid rgb(0, 0, 0);
+  }
+  .op {
+    display: block;
+    /* padding-top: 0.8em; */
+    padding: 0.3em 0.3em 0 0;
+    margin-right: 0.1em;
+  }
+  .logo {
+    display: none;
+  }
+  .logOUT {
+    width: 95%;
+    text-align: center;
+    margin-top: -0.8em;
+    margin-left: 0.4em;
+  }
+  .logout-btn {
+    text-align: center;
+    padding-right: 1em;
+  }
+}

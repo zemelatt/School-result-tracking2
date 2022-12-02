@@ -1,0 +1,40 @@
+.student-file {
+  text-align: center;
+  background-color: rgb(227, 230, 233);
+  padding-top: 5%;
+}
+.registerd-student-view {
+  width: 70%;
+  background-color: rgb(43, 119, 182);
+  margin-left: 15%;
+  /* min-height: 5em; */
+  padding-top: 3rem;
+  display: flex;
+  padding-left: 2%;
+  text-align: center;
+}
+.details {
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 565px) {
+  .registerd-student-view {
+    width: 95%;
+    padding-top: 3rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .details {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 404px) {
+  .registerd-student-view {
+    width: 95%;
+    padding-top: 3rem;
+    display: block;
+  }
+  .details {
+    font-size: 1.4rem;
+  }
+}

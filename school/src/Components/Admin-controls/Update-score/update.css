@@ -1,0 +1,30 @@
+.labels {
+  width: 100%;
+  margin-left: 18%;
+}
+.inputs {
+  width: 70%;
+  height: 1rem;
+  margin-left: 14%;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.2rem;
+}
+.submit-btn {
+  margin-left: 45%;
+  margin-top: 2.5%;
+  width: 16%;
+  padding: 1.5%;
+  font-size: 18px;
+  border-radius: 6px;
+  color: black;
+}
+.adding-new-score {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 1.5em;
+}
+.submit-btn:hover {
+  background-color: rgb(15, 15, 87);
+  color: aliceblue;
+}

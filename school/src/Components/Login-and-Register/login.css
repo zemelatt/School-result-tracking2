@@ -1,0 +1,72 @@
+:root {
+  --Navbar-background-color: rgb(49, 51, 175);
+  --Navbar-color: white;
+}
+.login-form {
+  width: 50%;
+  height: 13rem;
+  display: block;
+  background-color: rgba(241, 241, 245, 0.6);
+  background-image: url(../../Assets/Login-bckg.webp);
+  color: black;
+  background-size: cover;
+  margin-left: 23%;
+  margin-top: 8%;
+  padding: 5% 2% 4% 2%;
+  border-radius: 3em;
+}
+input {
+  width: 90%;
+  padding: 2%;
+  line-height: 1%;
+  border-radius: 4em;
+}
+label {
+  color: rgb(255, 255, 255);
+  background-color: rgba(1, 1, 2, 0.6);
+  padding-top: 0%;
+  margin-left: 4%;
+}
+.login-btn {
+  margin-left: 33%;
+  margin-top: 5%;
+  padding: 1.4%;
+  width: 40%;
+  border-radius: 4em;
+  color: black;
+}
+.login-btn:hover {
+  background-color: var(--Navbar-background-color);
+  color: var(--Navbar-color);
+}
+.login {
+  width: 60%;
+  padding-left: 40%;
+  color: rgb(250, 250, 250);
+  background-color: rgb(20, 14, 14, 0.6);
+  font-size: 1.2em;
+}
+.to-register {
+  margin-top: 1%;
+  margin-left: 34%;
+  color: rgb(255, 255, 255);
+}
+.to-register a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(28, 37, 170);
+}
+@media screen and (max-width: 529px) {
+  .login-form {
+    border-radius: 1em;
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .login {
+    padding-left: 20%;
+    margin-left: 8%;
+  }
+  .to-register {
+    margin-left: 26%;
+    color: rgb(255, 255, 255);
+  }
+}

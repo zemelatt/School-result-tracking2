@@ -1,0 +1,29 @@
+* {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.admin-control {
+  background-color: rgba(83, 40, 240);
+  text-align: center;
+  padding: 2%;
+  border-left: 2px solid rgb(184, 181, 181);
+  border-right: 2px solid rgb(184, 181, 181);
+}
+
+.admin-btn {
+  background-color: rgba(83, 40, 240);
+  padding: 0.1rem 0.5rem 0.29rem 0.2rem;
+}
+.admin-btn:hover {
+  border-left: 2px solid rgb(184, 181, 181);
+}
+@media screen and (max-width: 264px) {
+  .admin-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    padding-left: 10%;
+    margin-left: 1%;
+  }
+}
